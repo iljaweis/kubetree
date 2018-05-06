@@ -37,5 +37,6 @@ kubernetes
 
 ## Options
 
-- **-n NAMESPACE** list only resource of NAMESPACE. "all", the default lists all.
+- **-n NAMESPACE** list only resources of NAMESPACE. "all", the default, lists all.
 - **-kubeconfig** points to the kubeconfig. Default `~/.kube/config` or the value of environment `KUBECONFIG`.
+- **-c** use color output for resource state
